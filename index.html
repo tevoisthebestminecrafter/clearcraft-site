@@ -1,68 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>CraftLauncher</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f4f4f4; color: #333; }
-    header { background: #2c3e50; color: white; padding: 20px 0; text-align: center; }
-    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
-    section { padding: 40px 20px; max-width: 800px; margin: auto; }
-    h2 { color: #2c3e50; }
-    .btn { background: #3498db; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 10px; }
-    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
-    footer { background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: 40px; }
-  </style>
-</head>
-<body>
+<section id="join">
+  <h2>Join the Project</h2>
+  <p>Want to help build CraftLauncher? Whether you're a developer, designer, translator, or just passionate about Minecraft — we want you!</p>
+  <form action="https://formspree.io/f/xblzkzyy" method="POST">
+    <label>
+      Your Name:
+      <input type="text" name="name" placeholder="Your Name" required>
+    </label>
+    <label>
+      Your Email:
+      <input type="email" name="email" placeholder="Your Email" required>
+    </label>
+    <label>
+      How would you like to help?
+      <textarea name="message" placeholder="How would you like to help?" rows="4" required></textarea>
+    </label>
+    <button class="btn" type="submit">Sign Up</button>
+  </form>
+</section>
 
-  <header>
-    <h1>CraftLauncher</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#download">Download</a>
-      <a href="#join">Join Project</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section id="about">
-    <h2>About</h2>
-    <p>CraftLauncher is a clean, lightweight Minecraft launcher built for players who value speed, transparency, and freedom. No ads, no trackers, no shady stuff — just pure gameplay.</p>
-  </section>
-
-  <section id="download">
-    <h2>Download</h2>
-    <p>The launcher is currently in development. Stay tuned for the first release!</p>
-    <a class="btn" href="#">Download Coming Soon</a>
-  </section>
-
-  <section id="join">
-    <h2>Join the Project</h2>
-    <p>Want to help build CraftLauncher? Whether you're a developer, designer, translator, or just passionate about Minecraft — we want you!</p>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="How would you like to help?" rows="4" required></textarea>
-      <button class="btn" type="submit">Sign Up</button>
-    </form>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Questions, suggestions, or feedback? Reach out to us!</p>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="4" required></textarea>
-      <button class="btn" type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 CraftLauncher. Built with love by the community.</p>
-  </footer>
-
-</body>
-</html>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Questions, suggestions, or feedback? Reach out to us!</p>
+  <form action="https://formspree.io/f/xblzkzyy" method="POST">
+    <label>
+      Your Name:
+      <input type="text" name="name" placeholder="Your Name" required>
+    </label>
+    <label>
+      Your Email:
+      <input type="email" name="email" placeholder="Your Email" required>
+    </label>
+    <label>
+      Your Message:
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+    </label>
+    <button class="btn" type="submit">Send Message</button>
+  </form>
+</section>
